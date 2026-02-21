@@ -85,9 +85,13 @@ namespace MySample2
             //Console.WriteLine(num);
             //Console.WriteLine(dup);
 
-            var num = 10;
-            num += 20;
-            Console.WriteLine(num);
+            //var num = 10;
+            //num += 20;
+            //Console.WriteLine(num);
+
+            henkousimasita
+
+            
 
 
 
