@@ -89,8 +89,6 @@ namespace MySample2
             //num += 20;
             //Console.WriteLine(num);
 
-            henkousimasita
-
             
 
 
