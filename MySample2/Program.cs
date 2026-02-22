@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MySample2
 {
@@ -89,7 +90,49 @@ namespace MySample2
             //num += 20;
             //Console.WriteLine(num);
 
-            
+            //var source = 15.8;
+            //var width = (int)source;
+            //Console.WriteLine(width);
+
+            //var total = 998;
+            //var discount = (int)(total * 0.1);
+            //var payment = total - discount;
+
+            //Console.WriteLine("割引額：{0}ｴﾝです", discount);
+            //Console.WriteLine("支払額：{0}ｴﾝです", payment);
+
+            //var total = 100;
+            //var line = Console.ReadLine();
+            //var count = int.Parse(line);
+            //var num = total / count;
+            //Console.WriteLine(num);
+
+            //var name = Console.ReadLine();
+            //var message = name + "さん、こんにちは";
+            //Console.WriteLine(message);
+
+            //var str = "これは正しい文字列です" +
+            //          "+演算子で連結させています";
+
+            //Console.WriteLine(str);
+
+            //var s1 = "おはよう";
+            //            var s2 = "ございます";
+            //var s3 = "こんにちは";
+            //            var s4 = "こんばんは";
+            //var message = s1 + s2 + "、" + s3+ s4;
+
+            //Console.WriteLine(message);
+
+            //var message = "こんにちは、";
+            //message += "世界！";
+            //Console.WriteLine(message);
+
+            var season = '夏';
+            var temperature = 39;
+            var str = $"今日は{season}で、気温は{temperature}度です";
+            Console.WriteLine(str);
+
 
 
 
