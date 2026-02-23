@@ -128,15 +128,145 @@ namespace MySample2
             //message += "世界！";
             //Console.WriteLine(message);
 
-            var season = '夏';
-            var temperature = 39;
-            var str = $"今日は{season}で、気温は{temperature}度です";
-            Console.WriteLine(str);
+            //var season = '夏';
+            //var temperature = 39;
+            //var str = $"今日は{season}で、気温は{temperature}度です";
+            //Console.WriteLine(str);
+
+            //var line = Console.ReadLine();
+            //var num = int.Parse(line);
+            //if (num >= 10)
+            //{
+            //    Console.WriteLine($"{num}は10以上です");
+            //}
+
+            //var lang = Console.ReadLine();
+            //if (lang == "C#")
+            //{
+            //    Console.WriteLine("C#");
+            // }
+            //if (lang != "java")
+            //{
+            //    Console.WriteLine("javaではない");
+            //}
+
+            //var line = Console.ReadLine();
+            //var month = int.Parse(line);
+            //if (1 <= month && month <= 12)
+            //{
+            //    Console.WriteLine("1以上12以下の数値です");
+            //}
+
+            //var line = Console.ReadLine();
+            //var num = int.Parse(line);
+            //if (num % 3 == 0 || num % 5 == 0)
+            //{
+            //    Console.WriteLine("3の倍数か5の倍数です");
+            //}
+
+            //Console.WriteLine("ご希望の時間帯を番号で選択してください");
+            //Console.WriteLine("1: 朝 2: 昼 3: 夜"); 
+            //Console.WriteLine("番号を入力してください");
+
+            //var line = Console.ReadLine();
+            //var value = int.Parse(line);
+
+            //switch (value)
+            //{
+            //    case 1:
+            //        Console.WriteLine("おはようございます");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("こんにちは");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("こんばんは");
+            //        break;
+            //    default:
+            //        Console.WriteLine("1から3の番号を入力してください");
+            //        break;
+            //}
+
+
+            //var word = Console.ReadLine();
+            // var term = "";
+
+            // switch (word)
+            // {
+            //     case "API":
+            //         term = "Application Programming Interfaceの略で、ソフトウェア同士がやりとりするためのルールや仕様のことです";
+            //         break;
+
+            //     case "RDB":
+            //         term = "Relational Databaseの略で、データを表形式で管理するデータベースのことです";
+            //         break;
+
+            //     case "UI":
+            //         term = "User Interfaceの略で、ユーザーがコンピュータやソフトウェアとやりとりするための画面や操作方法のことです";
+            //         break;
+
+            // }
+
+            // if (term != "")
+            // {
+            //     Console.WriteLine($"{word}は{term}");　
+            // }
+
+
+            //var temp = 29.5;
+
+            //if (temp >= 35.0)
+            //{
+            //    Console.WriteLine("危険な暑さです。熱中症に注意してください");
+            //}
+            //else if (temp >= 30.0)
+            //{
+            //    Console.WriteLine("非常に暑いです。こまめに水分をとってください");
+            //}
+            //else if (temp >= 25.0)
+            //{
+            //    Console.WriteLine("暑いです。適度に休憩をとってください");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("快適な気温です。外出を楽しんでください");
+            //}
+
+            //for (var year = 1; year <= 64; year++)
+            //{
+            //    var westernYear = year + 1925;
+            //    Console.WriteLine($"昭和{year}年は西暦{westernYear}年です");
+            //    year++;
+            //}
+
+
+            //var num = 0;
+            //while (num <= 0 || 5 <= num)
+            //{
+            //    Console.WriteLine("0以上5以下の数値を入力してください");
+            //    var line = Console.ReadLine();
+            //    num = int.Parse(line);
+            //}
+            //Console.WriteLine($"{num}は0以上5以下の数値です");
+
+            //var n = 5;
+            //for (var i = 0; i < n; i++)
+            //{
+            //    Console.WriteLine($"i = {i}");
+            //}
+
+            //var line = "";
+            //do
+            //{
+            //    Console.WriteLine("何か入力してください");
+            //    line = Console.ReadLine();
+            //}while (line == "");
+            // Console.WriteLine($"あなたは「{line}」と入力しました");
 
 
 
 
 
-        }
+        }   
     }
 }
